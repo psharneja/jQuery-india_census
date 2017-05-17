@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+ text-align: center;
+ font-family:  cursive;
+ font-variant-caps: all-small-caps;
+    color: white;
+   }
+.navbar{
+    background: linear-gradient(to bottom right, orange, white, green);
+    border: none;
+
+}
+.container {
+    background-color: ghostwhite;
+    margin-top: -20px;
+    border: none;
+}
+    
+.navbar-logo {
+    position: relative;
+    bottom: 20px;
+    color: deepskyblue;
+    font-weight: bolder;
+}
+
+
+
+#add-row-button {
+    margin-top: 25px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+                margin-top: 5px;
+                background-color: #464646;
+                box-shadow: 0 -5px 25px -5px #333;
+                padding: 30px; 
+                text-align: center;
+                color: white;
+                }
+           
+.fa {
+                color: #e3e3e3;
+                margin: 20px ;
+            }
+            footer .instagram:hover {
+                
+                color: #517fa6;
+                bottom:5px;
+                text-decoration: none;
+                transition: all 0.2s ease-in-out;
+            }
+            footer .facebook:hover {
+                
+                color: #3b5998;
+                bottom:5px;
+                text-decoration: none;
+                transition: all 0.2s ease-in-out;
+
+            }
+            footer .twitter:hover {
+                color: #6cadde;
+                bottom:5px;
+                text-decoration: none;
+                transition: all 0.2s ease-in-out;
+            }

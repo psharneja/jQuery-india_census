@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head charset="utf-8">
+		<TITLE>jSon manipulation</TITLE>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- font awesome cdn -->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--d3 js cdn -->
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+		<!-- custom css -->
+		<link rel="stylesheet" href="/css/style.css">
+
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+          <div  class="container-fluid">
+              <h1 class="navbar-logo">India Census</h1>
+          </div>
+        </nav>
+        <section class="container">
+          <row><h2>
+              Our data for age-wise categorization of population
+          </h2></row>
+            <div class="col-sm-8">
+               
+                <table class="table table-hover" id="first-graph-table" >
+                    <thead><th>Range in Age</th><th>Total Population</th><th>Male Population</th><th>Female Population</th><th>Action!</th>
+                    <tbody>
+                        
+                    </tbody>
+                    </thead>
+                    
+                </table>
+            </div>
+            <div class="col-sm-4">
+                        <form>
+                            <div class="form-group">
+                                <label for="age-group">Age Group</label>
+                                <input  type="text" required="true" class="form-control" id="age-group" placeholder="Age-Group">
+                            </div>
+                            <div class="form-group">
+                                <label for="all-in-age-group">Total Population in given Age Group</label>
+                                <input  type="text" required="true" class="form-control" id="all-in-age-group" placeholder="Population">
+                            </div>
+                            <div class="form-group">
+                                <label for="males-in-age-group">Males</label>
+                                <input  type="text" required="true" class="form-control" id="males-in-age-group" placeholder="Males">
+                            </div>
+                            <div class="females-in-age-group">
+                                <label for="age-group">Females</label>
+                                <input  type="text" required="true" class="form-control" id="females-in-age-group" placeholder="Females">
+                            </div>
+                            
+                                <input type="button" id="add-row-button"  class="btn btn-success" value="Add Row!">
+                        
+                        </form> 
+            </div>
+        </section>
+         <footer id="contact-me" class="container-fluid"><!-- footer having contact details -->
+            
+                    <h4>Contact me here....</h4>
+                    <a class="fa facebook fa-facebook-square fa-3x" href="https://www.facebook.com/psharneja" aria-hidden="true"></a>
+                    <a class="fa instagram fa-instagram fa-3x" href="https://www.instagram.com/psharneja" aria-hidden="true"></a>
+                    <a class="fa twitter fa-twitter-square fa-3x" href="https://www.twitter.com/psharneja" aria-hidden="true"></a>
+            
+        </footer><!-- footer having contact details ends-->
+
+        <strong>Created by: <span style="font-variant-caps: all-small-caps">PsHarneja</span></strong>
+        
+		<!-- jquery cdn -->
+		<script
+          src="https://code.jquery.com/jquery-3.2.1.js"
+          integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+              crossorigin="anonymous"></script>  
+         
+        <!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- mustache js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js" ></script>
+		<!-- custom js -->
+		<script src="/js/index.js"></script>
+	</body>
+</html>

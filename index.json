@@ -1,0 +1,447 @@
+{
+  "age_wise_data": [
+    {
+      "id": 1,
+      "_age": "8",
+      "_all": 29011421,
+      "_males": 15275779,
+      "_females": 13735642
+    },
+    {
+      "id": 2,
+      "_age": "9",
+      "_all": 26565571,
+      "_males": 13944411,
+      "_females": 12621160
+    },
+    {
+      "id": 3,
+      "_age": "10",
+      "_all": 34430703,
+      "_males": 18297530,
+      "_females": 16133173
+    },
+    {
+      "id": 4,
+      "_age": "11",
+      "_all": 28806963,
+      "_males": 15208075,
+      "_females": 13598888
+    },
+    {
+      "id": 5,
+      "_age": "12",
+      "_all": 32348816,
+      "_males": 17182405,
+      "_females": 15166411
+    },
+    {
+      "id": 6,
+      "_age": "13",
+      "_all": 28387474,
+      "_males": 14858649,
+      "_females": 13528825
+    },
+    {
+      "id": 7,
+      "_age": "14",
+      "_all": 29171219,
+      "_males": 15420424,
+      "_females": 13750795
+    },
+    {
+      "id": 8,
+      "_age": "15",
+      "_all": 29325198,
+      "_males": 15824682,
+      "_females": 13500516
+    },
+    {
+      "id": 9,
+      "_age": "16",
+      "_all": 27686321,
+      "_males": 14965877,
+      "_females": 12720444
+    },
+    {
+      "id": 10,
+      "_age": "17",
+      "_all": 23886851,
+      "_males": 13062719,
+      "_females": 10824132
+    },
+    {
+      "id": 11,
+      "_age": "18",
+      "_all": 30218875,
+      "_males": 16853726,
+      "_females": 13365149
+    },
+    {
+      "id": 12,
+      "_age": "19",
+      "_all": 22621208,
+      "_males": 12274003,
+      "_females": 10347205
+    },
+    {
+      "id": 14,
+      "_age": "20-24",
+      "_all": 114128000,
+      "_males": 63173776,
+      "_females": 50954224
+    },
+    {
+      "id": 15,
+      "_age": "25-29",
+      "_all": 95741848,
+      "_males": 53688711,
+      "_females": 42053137
+    },
+    {
+      "id": 16,
+      "_age": "30-34",
+      "_all": 77036519,
+      "_males": 44387650,
+      "_females": 32648869
+    },
+    {
+      "id": 17,
+      "_age": "35-39",
+      "_all": 68243458,
+      "_males": 40551647,
+      "_females": 27691811
+    },
+    {
+      "id": 18,
+      "_age": "40-44",
+      "_all": 53708523,
+      "_males": 33320538,
+      "_females": 20387985
+    },
+    {
+      "id": 19,
+      "_age": "45-49",
+      "_all": 43357916,
+      "_males": 27352329,
+      "_females": 16005587
+    },
+    {
+      "id": 20,
+      "_age": "50-54",
+      "_all": 32553475,
+      "_males": 21118700,
+      "_females": 11434775
+    },
+    {
+      "id": 21,
+      "_age": "55-59",
+      "_all": 24557099,
+      "_males": 15985521,
+      "_females": 8571578
+    },
+    {
+      "id": 22,
+      "_age": "60-64",
+      "_all": 20160842,
+      "_males": 13534572,
+      "_females": 6626270
+    },
+    {
+      "id": 23,
+      "_age": "65-69",
+      "_all": 13193461,
+      "_males": 8986156,
+      "_females": 4207305
+    },
+    {
+      "id": 24,
+      "_age": "70-74",
+      "_all": 8560705,
+      "_males": 5998259,
+      "_females": 2562446
+    },
+    {
+      "id": 25,
+      "_age": "75-79",
+      "_all": 4263104,
+      "_males": 2897800,
+      "_females": 1365304
+    },
+    {
+      "id": 26,
+      "_age": "80+",
+      "_all": 4920189,
+      "_males": 3189566,
+      "_females": 1730623
+    },
+    {
+      "id": 27,
+      "_age": "Age not stated",
+      "_all": 3459950,
+      "_males": 2042967,
+      "_females": 1416983
+    },
+    {
+      "id": 28,
+      "_age": "7",
+      "_all": 22818573,
+      "_males": 11984763,
+      "_females": 10833810
+    }
+  ],
+  "graduates_data": [
+    {
+      "_state_name": "JAMMU & KASHMIR",
+      "_grad_all": 692484,
+      "_grad_males": 426555,
+      "_grad_females": 265929
+    },
+    {
+      "_state_name": "HIMACHAL PRADESH",
+      "_grad_all": 517101,
+      "_grad_males": 293449,
+      "_grad_females": 223652
+    },
+    {
+      "_state_name": "PUNJAB",
+      "_grad_all": 1919669,
+      "_grad_males": 960456,
+      "_grad_females": 959213
+    },
+    {
+      "_state_name": "CHANDIGARH",
+      "_grad_all": 206036,
+      "_grad_males": 111494,
+      "_grad_females": 94542
+    },
+    {
+      "_state_name": "UTTARAKHAND",
+      "_grad_all": 1002397,
+      "_grad_males": 568963,
+      "_grad_females": 433434
+    },
+    {
+      "_state_name": "HARYANA",
+      "_grad_all": 1994600,
+      "_grad_males": 1183849,
+      "_grad_females": 810751
+    },
+    {
+      "_state_name": "NCT OF DELHI",
+      "_grad_all": 2918192,
+      "_grad_males": 1636077,
+      "_grad_females": 1282115
+    },
+    {
+      "_state_name": "RAJASTHAN",
+      "_grad_all": 3526541,
+      "_grad_males": 2461922,
+      "_grad_females": 1064619
+    },
+    {
+      "_state_name": "UTTAR PRADESH",
+      "_grad_all": 10898205,
+      "_grad_males": 7086446,
+      "_grad_females": 3811759
+    },
+    {
+      "_state_name": "BIHAR",
+      "_grad_all": 3235648,
+      "_grad_males": 2471458,
+      "_grad_females": 764190
+    },
+    {
+      "_state_name": "SIKKIM",
+      "_grad_all": 42848,
+      "_grad_males": 24812,
+      "_grad_females": 18036
+    },
+    {
+      "_state_name": "ARUNACHAL PRADESH",
+      "_grad_all": 86937,
+      "_grad_males": 58823,
+      "_grad_females": 28114
+    },
+    {
+      "_state_name": "NAGALAND",
+      "_grad_all": 165044,
+      "_grad_males": 96513,
+      "_grad_females": 68531
+    },
+    {
+      "_state_name": "MANIPUR",
+      "_grad_all": 294135,
+      "_grad_males": 178447,
+      "_grad_females": 115688
+    },
+    {
+      "_state_name": "MIZORAM",
+      "_grad_all": 95396,
+      "_grad_males": 56437,
+      "_grad_females": 38959
+    },
+    {
+      "_state_name": "TRIPURA",
+      "_grad_all": 165796,
+      "_grad_males": 107556,
+      "_grad_females": 58240
+    },
+    {
+      "_state_name": "MEGHALAYA",
+      "_grad_all": 154962,
+      "_grad_males": 77020,
+      "_grad_females": 77942
+    },
+    {
+      "_state_name": "ASSAM",
+      "_grad_all": 1130319,
+      "_grad_males": 718327,
+      "_grad_females": 411992
+    },
+    {
+      "_state_name": "WEST BENGAL",
+      "_grad_all": 5355274,
+      "_grad_males": 3463977,
+      "_grad_females": 1891297
+    },
+    {
+      "_state_name": "JHARKHAND",
+      "_grad_all": 1532170,
+      "_grad_males": 1039975,
+      "_grad_females": 492195
+    },
+    {
+      "_state_name": "ODISHA",
+      "_grad_all": 1965889,
+      "_grad_males": 1303987,
+      "_grad_females": 661902
+    },
+    {
+      "_state_name": "CHHATTISGARH",
+      "_grad_all": 1216588,
+      "_grad_males": 799269,
+      "_grad_females": 417319
+    },
+    {
+      "_state_name": "MADHYA PRADESH",
+      "_grad_all": 3591389,
+      "_grad_males": 2311433,
+      "_grad_females": 1279956
+    },
+    {
+      "_state_name": "GUJARAT",
+      "_grad_all": 3471795,
+      "_grad_males": 2083498,
+      "_grad_females": 1388297
+    },
+    {
+      "_state_name": "DAMAN & DIU",
+      "_grad_all": 13349,
+      "_grad_males": 8774,
+      "_grad_females": 4575
+    },
+    {
+      "_state_name": "DADRA & NAGAR HAVELI",
+      "_grad_all": 21779,
+      "_grad_males": 13880,
+      "_grad_females": 7899
+    },
+    {
+      "_state_name": "MAHARASHTRA",
+      "_grad_all": 9505517,
+      "_grad_males": 5730823,
+      "_grad_females": 3774694
+    },
+    {
+      "_state_name": "ANDHRA PRADESH",
+      "_grad_all": 6307880,
+      "_grad_males": 4125374,
+      "_grad_females": 2182506
+    },
+    {
+      "_state_name": "KARNATAKA",
+      "_grad_all": 4496451,
+      "_grad_males": 2799580,
+      "_grad_females": 1696871
+    },
+    {
+      "_state_name": "GOA",
+      "_grad_all": 152131,
+      "_grad_males": 77010,
+      "_grad_females": 75121
+    },
+    {
+      "_state_name": "LAKSHADWEEP",
+      "_grad_all": 4288,
+      "_grad_males": 2682,
+      "_grad_females": 1606
+    },
+    {
+      "_state_name": "KERALA",
+      "_grad_all": 2662074,
+      "_grad_males": 1187364,
+      "_grad_females": 1474710
+    },
+    {
+      "_state_name": "TAMIL NADU",
+      "_grad_all": 6073079,
+      "_grad_males": 3495384,
+      "_grad_females": 2577695
+    },
+    {
+      "_state_name": "PUDUCHERRY",
+      "_grad_all": 154784,
+      "_grad_males": 87072,
+      "_grad_females": 67712
+    },
+    {
+      "_state_name": "ANDAMAN & NICOBAR ISLANDS",
+      "_grad_all": 24580,
+      "_grad_males": 13832,
+      "_grad_females": 10748
+    }
+  ],
+  "literates_data": [
+    {
+      "_education_level": "Literate without educational level",
+      "_all": 42917688
+    },
+    {
+      "_education_level": "Below Primary",
+      "_all": 187922838
+    },
+    {
+      "_education_level": "Primary",
+      "_all": 230286790
+    },
+    {
+      "_education_level": "Middle",
+      "_all": 165085953
+    },
+    {
+      "_education_level": "Matric/Secondary",
+      "_all": 123969998
+    },
+    {
+      "_education_level": "Higher secondary/Intermediate/Pre-University/Senior secondary",
+      "_all": 90159789
+    },
+    {
+      "_education_level": "Non-technical diploma or certificate not equal to degree",
+      "_all": 1162928
+    },
+    {
+      "_education_level": "Technical diploma or certificate not equal to degree",
+      "_all": 8290083
+    },
+    {
+      "_education_level": "Graduate & above",
+      "_all": 75595327
+    },
+    {
+      "_education_level": "Unclassified",
+      "_all": 3772888
+    }
+  ]
+}
