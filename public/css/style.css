@@ -1,6 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+     -webkit-font-smoothing: antialiased;
+    
+    text-rendering: optimizeLegibility;
 }
 
 h1 {
@@ -35,8 +38,20 @@ h1 {
 }
 
 
+tr .edit {
+    display: none;
+}
 
+tr.edit .edit {
+    display: initial;
+}
+tr.edit .noedit {
+    display: none;
+}
 
+.fixed-box {
+    max-width: 100px;
+}
 
 
 

@@ -11,7 +11,7 @@
         <script src="http://d3js.org/d3.v3.min.js"></script>
 		<!-- custom css -->
 		<link rel="stylesheet" href="/css/style.css">
-
+        
 	</head>
 	<body>
 		<nav class="navbar navbar-default">
@@ -19,20 +19,37 @@
               <h1 class="navbar-logo">India Census</h1>
           </div>
         </nav>
+        <section id="second-graph" class="container">
+        </section>
+        
         <section class="container">
           <row><h2>
-              Our data for age-wise categorization of population
+              Our data for age-wise categorization of literate population
           </h2></row>
             <div class="col-sm-8">
                
                 <table class="table table-hover" id="first-graph-table" >
                     <thead><th>Range in Age</th><th>Total Population</th><th>Male Population</th><th>Female Population</th><th>Action!</th>
-                    <tbody>
+                     </thead>
+                      <tbody>
+                       
                         
                     </tbody>
-                    </thead>
+                   
                     
                 </table>
+                <template id="first-graph-template">
+                    <tr data-id={{id}}><td><span class="_age">{{_age}}</span></td>
+                    <td><span class="noedit _all">{{_all}}</span><input class="edit _all form-control fixed-box" /></td>
+                    <td><span class="noedit _males">{{_males}}</span><input class="edit _males form-control fixed-box" /></td>
+                    <td><span class="noedit _females">{{_females}}</span><input class="edit _females form-control fixed-box" /></td>
+                    <td>
+                    <input type='button' class='btn btn-success savedetails edit' value='Save'>
+                    <input type='button' class='btn btn-default canceldetails edit' value='Cancel'>
+                   <input type='button' class='btn btn-info editdetails noedit' value='Edit'>
+
+                    <input data-id='{{id}}' type='button' class='btn btn-danger noedit' value='Remove'></td></tr>;
+                </template>
             </div>
             <div class="col-sm-4">
                         <form>
