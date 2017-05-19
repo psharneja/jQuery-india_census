@@ -30,6 +30,23 @@ h1 {
     font-weight: bolder;
 }
 
+svg{
+   margin-left: auto; 
+   margin-right: auto;
+   display: block;
+    font: 10px sans-serif;
+    shape-rendering: crispEdges;
+    box-shadow: 1px 1px 1px white;
+  }
+
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+ 
 
 
 #add-row-button {

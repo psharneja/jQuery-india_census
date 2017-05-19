@@ -18,8 +18,11 @@ $(function() {
        dataType: "json",
        success: function(data){
            $.each(data, function(i, age_det){
-               $age_wise.append(Mustache.render(first_Graph_Template, age_det));
+               append_first_graph(age_det);
+               //$age_wise.append(Mustache.render(first_Graph_Template, age_det));
                 });
+               secondGraph();
+
        }
    }); 
     
@@ -111,29 +114,9 @@ $(function() {
 
     }); 
     
-    
-    $.ajax({
-       type: 'GET',
-       url: '/graduates_data',
-       success: function(data){
-           console.log('success',data);
-       }
-   }) 
-    $.ajax({
-       type: 'GET',
-       url: '/literates_data',
-       success: function(data){
-           console.log('success',data);
-       }
-   }) 
-    
-    
-    
-    secondGraph();
-    
 /////////////graph js/////
     function secondGraph(){
-    var margin = { top: 20, right: 10, bottom: 200, left: 40},
+    var margin = { top: 20, right: 20, bottom: 200, left: 40},
     width = 1000 - margin.right - margin.left, 
     height = 700 - margin.top - margin.bottom;
 
@@ -149,7 +132,7 @@ var svg = d3.select('#second-graph')
 
 
 var xScale = d3.scale.ordinal()
-            .rangeRoundBands([0,width], 0.2, 0.2);
+            .rangeRoundBands([0,width],0.2,0.2);
 
 
 var yScale = d3.scale.linear()
@@ -235,11 +218,19 @@ var tooltip = svg.append("g")
 .style("z-index", 999)
   .style("opacity", 0.5);
         
+tooltip.append("text")
+  .attr("x", 20)
+  .attr("dy", "1.3em")
+  .style("text-anchor", "middle")
+  .attr("font-size", "14px")
+  .attr("font-weight", "bold");
+    
+        
     // Create groups for each series, rects for each segment 
-    var groups = svg.selectAll("g.grads")
+    var groups = svg.selectAll("g.rect")
   .data(dataset)
   .enter().append("g")
-  .attr("class", "grads")
+  .attr("class", "rect")
   .style("fill", function(d, i) { return colors[i]; });
         
     var rect = groups.selectAll("rect")
@@ -250,7 +241,7 @@ var tooltip = svg.append("g")
   .attr("y", function(d) { return y(d.y0 + d.y); })
   .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); })
   .attr("width", x.rangeBand())
-  .on("mouseover", function() { tooltip.style("display", null); })
+  .on("mouseover", function(d) { tooltip.style("display", null); })
   .on("mousemove", function(d) {
     var xPosition = d3.mouse(this)[0] - 15;
     var yPosition = d3.mouse(this)[1] - 25;
@@ -274,27 +265,20 @@ legend.append("rect")
   .style("fill", function(d, i) {return colors.slice().reverse()[i];});
  
 legend.append("text")
-  .attr("x", width + 5)
+  .attr("x", width + 15)
   .attr("y", 9)
-  .attr("dy", ".35em")
+  .attr("dy", ".45em")
   .style("text-anchor", "start")
   .text(function(d, i) { 
     switch (i) {
-        case 0: return "all"        
+        case 0: return "females"        
       case 1: return "males";
-      case 2: return "females";
+      case 2: return "all";
             
     }
     // Prep the tooltip bits, initial display is hidden
 
 
-tooltip.append("text")
-  .attr("x", 20)
-  .attr("dy", "1.4em")
-  .style("text-anchor", "middle")
-  .attr("font-size", "14px")
-  .attr("font-weight", "bold");
-    
   
 
     
